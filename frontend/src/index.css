@@ -17,8 +17,21 @@
   .btn-primary {
     @apply w-full mt-6 py-3 rounded-lg 
            bg-primary text-white font-semibold 
-           hover:bg-primary-dark transition;
+           hover:bg-white transition 
+           hover:text-primaryDark;
   }
+  .btn-primary-sm {
+  @apply px-4 py-1 rounded-md 
+         bg-primary text-white text-sm font-medium 
+         hover:bg-white hover:text-primaryDark hover:border-primaryDark border hover:scale-105
+         transition;
+}
+  .btn-secondary-sm {
+  @apply px-4 py-1 rounded-md 
+         bg-white text-primary text-sm font-medium border border-primaryDark
+         hover:bg-light hover:scale-105
+         transition;
+}
 
   .link {
     @apply text-primary font-medium cursor-pointer;
@@ -96,3 +109,6 @@ code {
   transform: translateX(0);
   opacity: 1;
 }
+
+
+.font-logo { font-family: "Forum", serif; font-weight: 700;  }

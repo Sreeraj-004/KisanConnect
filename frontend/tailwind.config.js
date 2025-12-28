@@ -5,11 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        forum: ["Forum", "serif"],
+      },  
       colors: {
-        primary: {
-          DEFAULT: "#1faa59",   
-          dark: "#148746",
-        },
+        primary: "#1faa59",     // main green
+        primaryDark: "#148746",
+        light: "#dcfce7",       // green-100
+        secondary: "#ffffff",  // white
       },
     },
   },

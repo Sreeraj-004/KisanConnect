@@ -10,6 +10,7 @@ import RegisterProduct from "./pages/RegisterProduct";
 import Cart from "./pages/Cartpage";
 import Chat from "./pages/Chat";
 import Inventory from "./pages/Inventory";
+import ProductHome from "./pages/ProductHome";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/Cart" element={<Cart />} />
         <Route path="/Chat" element={<Chat />} />
         <Route path="/inventory" element={<Inventory />} />
+        <Route path="/" element={<ProductHome />} />
       </Routes>
     </BrowserRouter>
   );
